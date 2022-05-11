@@ -1,0 +1,49 @@
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+h1, h2, .navigation a {
+    font-family: 'Comfortaa', cursive;
+}
+
+
+
+
+/* Variables */
+:root {
+    --purple: #5465ff;
+}
+
+/* Navigation */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60 px;
+    border-bottom: 1 px solid rgba (0, 0, 0, 0.15);
+}
+
+.navigation_items {
+    padding: 0 5px;
+}
+
+.navigation_items a {
+    color: #101010
+}
+.navigation_items a svg {
+    color: var(--purple)
+
+}
+.navigation:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
